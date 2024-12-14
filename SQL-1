@@ -1,0 +1,36 @@
+
+2. Rename table:
+ALTER table shopping RENAME to shopp
+ALTER table shopp RENAME to shopping
+
+shopp-ל shopping -השאלה הזו משנה את השם של הטבלה מ 
+shopping-ל shopp-והחלק השני של השאלה מחזירה את השם של הטבלה  מ 
+
+INSERT INTO shopping VALUES (1, 'Avokado', 5);
+INSERT INTO shopping VALUES (2, 'Milk', 2);
+INSERT INTO shopping VALUES (3, 'Bread', 3);
+INSERT INTO shopping VALUES (4, 'Chocolate', 8);
+INSERT INTO shopping VALUES (5, 'Bamba', 5);
+INSERT INTO shopping VALUES (6, 'Orange', 10);
+
+, את המספרים מ- 1-5 ID  שאלה זו ייצרה לי בתוך מפתח של 
+,את הטקסט שהכנסתי כמו לדוגמא את הירקות , השוקולד וכדומה name ייצרה לי בתוך מפתח של
+.name את הכמות שנתתי לכל  amount והמספרים האחרונים שנתתי ייצרו לי בתוך מפתח של 
+
+4. Display table:
+select * from shopping
+
+עושים כוכבית כדי לקבל את כל העמודות והטבלאות שייצרתי
+
+5. ?
+SELECT id, name FROM shopping
+
+שייצרנו IDמביא רק את השם ואת ה
+
+6. ?
+SELECT * FROM shopping WHERE amount > 5
+SELECT * FROM shopping WHERE amount = 2
+SELECT * FROM shopping WHERE name LIKE 'Bamba'
+
+מוצא איפה כל אחד מהדברים שחיפשתי כמו המספר 5, המספר 2 והבמה נמצאים ומביא לי אותם
+
